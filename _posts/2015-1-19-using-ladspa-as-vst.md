@@ -20,8 +20,8 @@ In order to use [LADSPA plugins](http://audacity.sourceforge.net/download/plugin
 
 After installing ladspashell to your default VST plugin folder by unpacking the ladspashell.dll file there and then loading the plugin for the first time, you will be asked for the location of the path of directory where those LADSPA plugins are installed. After choosing the right path, the LADSPA plugins will be available to your host. How it be available will depend on the host.
 
-
-LADSPA plugins on Reaper
+LADSPA plugins on Reaper-
+![reaper ladspa](/images/ladspashell/repear-ladspa-list-or8.png)
 
 
 ## Workaround for GVerb on Reaper
@@ -32,14 +32,15 @@ Many of these LADSPA plugins are Mono channel effect processors and the host aut
 Lets see how it's done. One quick way would be to just load two instances of the same plugin and use the plugin pin connection to assign left and right channels. You can use presets to share the same settings between these instances.
 
 
-Pin connection for getting proper stereo channel processing for GVerb
+Pin connection for getting proper stereo channel processing for GVerb-
+![pin connections](/images/ladspashell/repear-pin-connection-or8.png)
 
-
-GVerb LADSPA plugin on Audacity
+GVerb LADSPA plugin on Audacity-
+![gverb on audacity](/images/ladspashell/gverb-audacity-or8.png)
 
 
 GVerb LADSPA plugin on Reaper. As you can see "1 in 2 out", so use proper channel routing.
-
+![gverb on reaper](/images/ladspashell/gverb-reaper-or8.png)
 
 ## Reference
 

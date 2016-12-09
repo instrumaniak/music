@@ -17,7 +17,7 @@ title: Home
     {% if post.content contains site.excerpt_separator %}
       {{ post.excerpt | remove: '</p>' | append: "...</p>"}}
         <p style ="text-align:right">
-          <a href="{{ post.url }}">Read more...</a>
+          <a href="{{ post.url }}">Read more</a>
         </p>
     {% else %}
       {{ post.content }}
