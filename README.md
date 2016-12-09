@@ -1,2 +1,3 @@
-# music
-my blog and other writings related to music.
+# blog
+
+music.instrumaniak.cf

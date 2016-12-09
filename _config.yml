@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+gems:			  [jekyll-paginate]
+# Setup
+title:               instrumaniak
+tagline:             'music'
+description:         'instrumaniak music'
+url:                 //music.instrumaniak.cf
+baseurl:             ''
+paginate:            5
+excerpt_separator: '<!--more-->'
+
+# About/contact
+author:
+  name:              Raziur Rahman
+  url:               https://twitter.com/instrumaniak
+  email:             instrumaniak@gmail.com
+
+# Custom vars
+version:             0.1
+sass:
+  style: :compressed
+markdown: kramdown
