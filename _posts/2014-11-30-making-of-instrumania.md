@@ -3,8 +3,11 @@ layout: post
 title: Making of the Album - instrumania
 ---
 
-Instrumania (2014) is an electronic music album, composed/produced by Raziur Rahman. It's more of a concept album and it's difficult to pin it down to any particular musical genre as a whole. But I can say that the music in this album draws influences from progressive rock, metal, classical music both eastern and western, jazz and film-score/sound-tracks. The abstract quality of the music of this album is quite noticeable. In this post I will be talking about ideas behind the production process and share lots of screenshots to give you a better view of the making of this album.
+[Instrumania](//raziurrahman.bandcamp.com/album/instrumania) (2014) is an electronic music album, composed/produced by Raziur Rahman. It's more of a concept album and it's difficult to pin it down to any particular musical genre as a whole. But I can say that the music in this album draws influences from progressive rock, metal, classical music both eastern and western, jazz and film-score/sound-tracks. The abstract quality of the music of this album is quite noticeable. In this post I will be talking about ideas behind the production process and share lots of screenshots to give you a better view of the making of this album.
 <!--more-->
+
+<iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=4064667473/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" style="border: 0; height: 1036px; width: 600px;"><a href="http://raziurrahman.bandcamp.com/album/instrumania">instrumania by Raziur Rahman</a></iframe><br/>
+
 
 ## A little talk about the concept behind it
 
@@ -19,7 +22,9 @@ The instrumentation of the music is fairly straight forward. I tried to minimize
 
 instrumania was not made in a few weeks. It took eight months to finish the album by working full time. Each track is quite complex and as a whole it's not that easy to show how it was made using some screen shots provided below, a video would be better.So here is the link of the Youtube video of the Track 2 called Fly, which give you a better tour of the production process.
 
-
+<div class="video-container">
+<iframe frameborder="0" height="345" src="https://www.youtube.com/embed/UXq0LgjychM?&amp;showinfo=0" width="420">
+</iframe></div>
 
 
 instrumania was made entirely using the music production software called Reason 5 by Propellerhead. In Reason, instruments and effect processors are arrange in a virtual rack. When taking screen shots they just don't fit in the screen. You need to scroll and that can only be shown by capturing it in a video! So, below are just some brief discussions and some screen shots to give you a taste of the making process!
