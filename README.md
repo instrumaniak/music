@@ -1,3 +1,3 @@
-# blog
+# blog 
 
-music.instrumaniak.cf
+currently: music.instrumaniak.cf
