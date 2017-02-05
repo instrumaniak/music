@@ -11,7 +11,7 @@ tagline:             'blog'
 description:         'instrumaniak blog'
 url:                 //music.instrumaniak.cf
 #baseurl:             '/blog'
-paginate:            2
+paginate:            5
 paginate_path: "/blog/page:num/"
 excerpt_separator: '<!--more-->'
 
@@ -22,7 +22,7 @@ author:
   email:             instrumaniak@gmail.com
 
 # Custom vars
-version:             0.1
+version:             0.2
 sass:
   style: :compressed
 markdown: kramdown
