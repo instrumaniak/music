@@ -1,16 +1,17 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-#permalink:           /blog/:year/:month/:day/:title/
+permalink:           /blog/:year/:month/:day/:title/
 #relative_permalinks: true
+#permalink: pretty
 gems:			  [jekyll-paginate, jekyll-sitemap]
 # Setup
 title:               instrumaniak
 tagline:             'blog'
 description:         'instrumaniak blog'
 url:                 //music.instrumaniak.cf
-baseurl:             ''
-paginate:            5
+#baseurl:             '/blog'
+paginate:            2
 paginate_path: "/blog/page:num/"
 excerpt_separator: '<!--more-->'
 
