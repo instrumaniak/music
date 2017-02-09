@@ -4,4 +4,7 @@ title: Contact
 pageorder: 04
 ---
 
-Email.
+- Email: instrumaniak at gmail dot com
+- Facebook: facebook.com/instrumaniak
+- Twitter: twitter.com/instrumaniak
+
