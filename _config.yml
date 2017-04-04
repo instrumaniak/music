@@ -9,7 +9,7 @@ gems:			  [jekyll-paginate, jekyll-sitemap]
 title:               instrumaniak
 tagline:             'blog'
 description:         'instrumaniak blog'
-url:                 //music.instrumaniak.cf
+url:                 https://www.instrumaniak.cf
 #baseurl:             '/blog'
 paginate:            5
 paginate_path: "/blog/page:num/"
