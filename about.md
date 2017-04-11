@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-pageorder: 03
+pageorder: 04
 ---
 
 Hi! This is Raziur Rahman. I am from Dhaka, Bangladesh. I have a wide range of interests it goes from music production, digital art to computer programming and writing. I studied Electrical and Electronic Engineering (B.Sc, 2009).

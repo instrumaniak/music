@@ -22,7 +22,11 @@ author:
   email:             instrumaniak@gmail.com
 
 # Custom vars
-version:             0.3
+version:             0.4
 sass:
   style: :compressed
 markdown: kramdown
+
+collections:
+  bangla:
+    output: true

@@ -1,0 +1,62 @@
+/*   
+
+2016, Raziur Rahman.
+
+*/
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	background-color: #fcfcfc; /* 1% grey */
+	color: #1a1a1a; /* 90% grey */
+	padding: 1%;
+}
+
+#gls {
+	font-family: "Heebo", sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+
+}
+
+#gtag , .foot, #itxt {
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #808080; /* 50% grey */
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	
+}
+
+.nav { padding: 1% 1% 5% 1%;}
+
+.foot { padding: 8% 1% 1% 1%;}
+
+#gimg {padding: 2% 2% 1% 2%;
+		}
+#abt {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+/* New fixes for alignments */
+
+#mybutt {
+	text-align: center;
+}
+
+.btn {
+	margin: 4px;
+
+}
+
+@media (max-width: 365px){
+	.btn{
+	width:90%;
+	}
+}

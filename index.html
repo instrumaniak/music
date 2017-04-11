@@ -1,114 +1,50 @@
- <!-- instrumaniak 
- _____   _____  ______  _
-| ____| | ___ | ` / /  | |
-| |_|\  | |_| |  / /   | |
-|_| \_\ |_| |_| /_/__/ |_|
+---
+layout: default
+title: Home
+pageorder: 01
+---
 
-Copyright 2017, Raziur Rahman.
--->
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<!-- Resources source: 
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-w3.css - http://www.w3schools.com/w3css/default.asp 
-skulls background pattern png - https://subtlepatterns.com/skulls/
-Material icon svg - https://material.io/icons/
+    {% if post.content contains site.excerpt_separator %}
+      {{ post.excerpt | remove: '</p>' | append: "...</p>"}}
+        <p style ="text-align:right">
+          <a href="{{ post.url }}">Read more</a>
+        </p>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
 
-
--->
-
-<!DOCTYPE html>
-
-<html>
-<title>instrumaniak</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-<link rel="shortcut icon" href="public/favicon.ico">
-
-<link rel="stylesheet" href="w3.css"> 
-
- <link href="https://fonts.googleapis.com/css?family=Quicksand:300|Raleway:400,400i" rel="stylesheet"> 
-
-
-<style>
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  background: url('public/skulls-grey-fs8.png') repeat; 
-}
-
-h1, h2, h3 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 300; 
-}
-
-.hshadow:hover {
-  
- background-color: rgba(0,0,0,0.05);
- -webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
- transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
-}
-
-
-</style>
-
-<body>
-
-<div class="w3-padding w3-center w3-wide" style="margin-top: 5%; margin-bottom: 10%;">
-  <h1>instrumaniak</h1>
-</div>
-
-<div class="w3-row w3-center w3-padding">
-
-    <a href="/blog">
-      <div class="w3-third w3-container w3-padding w3-round hshadow">
-      <img src="ggl-mat-icon/ic_mode_edit_black_48px.svg"/>
-      <p>Blog</p>
-
-
-      </div>
-    </a>
-
-    <a href="/music">
-      <div class="w3-third w3-container  w3-padding w3-round hshadow">
-      <img src="ggl-mat-icon/ic_music_note_black_48px.svg"/>
-      <p>Music</p>
-      </div>
-    </a>
-
-    <a href="/arts">
-      <div class="w3-third w3-container  w3-padding w3-round hshadow">
-      <img src="ggl-mat-icon/ic_brush_black_48px.svg"/>
-      <p>Arts</p>
-      </div>
-    </a>
-
+    <hr>
     
+  </div>
 
+  {% endfor %}
 </div>
 
-
-<div class="w3-center w3-padding w3-small w3-text-grey" style="margin-top: 10%;">
-  <p>&copy;2017, Raziur Rahman. All rights reserved.
-
-    <a href="/about">About</a>, <a href="/contact">Contact</a> .
-
-  </p>
-
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88798521-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</body>
-</html>
