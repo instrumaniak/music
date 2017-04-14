@@ -1,3 +1,3 @@
-# blog 
+# Jekyll blog 
 
-currently: music.instrumaniak.cf
+currently: https://www.instrumaniak.cf
