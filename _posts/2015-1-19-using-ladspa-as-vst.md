@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using LADSPA plugins as VST plugins
+category: music-production
 ---
 
 This post will discuss how to use the LADSPA plugins,  to another VST host as VST plugins, on a Windows platform. To summarize this post:  It can be done using a VST plugin called ladspashell which loads these LADSPA plugins and makes them available to be used as VST plugins. I will be discussing from the perspective of Reaper but technically you can use any other VST host like FL Studio. Scroll down and skip the text to get right to the links.

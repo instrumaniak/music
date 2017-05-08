@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making of the Album - instrumania
+category: music-production
 ---
 
 [Instrumania](//raziurrahman.bandcamp.com/album/instrumania) (2014) is an electronic music album, composed/produced by Raziur Rahman. It's more of a concept album and it's difficult to pin it down to any particular musical genre as a whole. But I can say that the music in this album draws influences from progressive rock, metal, classical music both eastern and western, jazz and film-score/sound-tracks. The abstract quality of the music of this album is quite noticeable. In this post I will be talking about ideas behind the production process and share lots of screenshots to give you a better view of the making of this album.

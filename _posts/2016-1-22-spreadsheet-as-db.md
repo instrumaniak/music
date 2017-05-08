@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Using spreadsheet as a simple database
-tag: spreadsheet
+category: tech-talk
 ---
 Sometimes when you have a set of text data and you want to keep adding, refining and querying on that set, you face the need to use a database. For a smaller set of data of less than or about a hundred items- using a spreadsheet seems to be more intuitive and fast.
 

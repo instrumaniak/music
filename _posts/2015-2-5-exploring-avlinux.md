@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring AVLinux
-tag:
+category: music-production
 ---
 
 In the last decade, Linux audio and music production scene has gone through many changes and improved a lot. Now, most of the common hardwares are supported out of the box and softwares have became more extensive, sophisticated and polished, although they might be buggy sometimes.  But still, jumping down right to music production is quite challenging, specially for those who are not familiar with Linux and their distributions. Even though there are some distributions which are tailored specifically for musicians, you need to be prepared for tweaking and tailoring it for your need and expect some unexpected crashes and burns.
