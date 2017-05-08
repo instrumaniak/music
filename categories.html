@@ -1,0 +1,29 @@
+---
+layout: page
+title: Categories
+pageorder: 01
+---
+
+<br/>
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <a href ="#{{ category_name | slugize }}">{{ category_name }}</a> &nbsp;
+{% endfor %}
+
+<hr>
+
+{% for category in site.categories %}
+
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+    
+    <h3>{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+    
+    {% endfor %}
+  
+{% endfor %}

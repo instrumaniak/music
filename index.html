@@ -13,7 +13,12 @@ pageorder: 01
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }}
+    {% if post.category %}
+    &bull; <a href=/categories#{{post.category | slugize}}> {{post.category}}</a>
+    {% endif %}
+    
+    </span>
 
     {% if post.content contains site.excerpt_separator %}
       {{ post.excerpt | remove: '</p>' | append: "...</p>"}}
