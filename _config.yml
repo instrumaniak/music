@@ -4,7 +4,7 @@
 permalink:           /blog/:year/:month/:day/:title/
 #relative_permalinks: true
 #permalink: pretty
-gems:			  [jekyll-paginate, jekyll-sitemap]
+gems:			  [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 # Setup
 title:               instrumaniak
 tagline:             'blog'
