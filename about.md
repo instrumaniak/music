@@ -10,4 +10,4 @@ Hi! This is Raziur Rahman. I am from Dhaka, Bangladesh. I have a wide range of i
 
 <hr>
 
-This site is built using jekyll+lanyon theme and hosted on github.
+This site is built using jekyll+lanyon theme and hosted on github. Read more about it from [here]({% post_url 2017-5-14-jekyll-for-blogging %}).
