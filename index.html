@@ -21,7 +21,7 @@ pageorder: 01
     </span>
 
     {% if post.content contains site.excerpt_separator %}
-      {{ post.excerpt | remove: '</p>' | append: "...</p>"}}
+      {{ post.excerpt }}
         <p style ="text-align:right">
           <a href="{{ post.url }}">Read more &raquo;</a>
         </p>

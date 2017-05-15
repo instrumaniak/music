@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /blog/:year/:month/:day/:title/
+permalink:           /blog/:title/
 #relative_permalinks: true
 #permalink: pretty
 gems:			  [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
@@ -22,7 +22,7 @@ author:
   email:             instrumaniak@gmail.com
 
 # Custom vars
-version:             0.5
+version:             0.6
 sass:
   style: :compressed
 markdown: kramdown
