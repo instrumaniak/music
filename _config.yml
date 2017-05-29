@@ -4,7 +4,7 @@
 permalink:           /blog/:title/
 #relative_permalinks: true
 #permalink: pretty
-gems:			  [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
+gems:			  [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-feed]
 # Setup
 title:               instrumaniak
 tagline:             'blog'
