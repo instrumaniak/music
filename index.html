@@ -15,9 +15,20 @@ pageorder: 01
 
     <span class="post-date">{{ post.date | date_to_string }}
     {% if post.category %}
-    &bull; <a href=/categories#{{post.category | slugize}}> {{post.category}}</a>
+
+    &bull;
+     <a class="categories" href="/categories#{{post.category | slugize}}"> {{post.category}}</a>
     {% endif %}
-    
+            
+    {% if post.tags.size > 0%}
+      &nbsp;&nbsp;<img class=
+      "img-icons" src="/images/gmat-icons/ic_label_outline_black_24px.svg" />
+      {% assign all_tags = post.tags | sort %}
+      {% for tag in all_tags %}      
+        <a class="tags" href ="/tags#{{ tag | slugize }}">{{ tag }}</a>{%unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endif %}
+
     </span>
 
     {% if post.content contains site.excerpt_separator %}

@@ -1,0 +1,31 @@
+---
+layout: page
+title: Tags
+pageorder: 01
+---
+
+<br/>
+{% assign all_tags = site.tags | sort %}
+{% for tag in all_tags %}
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <a href ="#{{ tag_name | slugize }}">{{ tag_name }}</a> &nbsp;
+{% endfor %}
+
+<hr>
+
+{% for tag in all_tags %}
+
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <a name="{{ tag_name | slugize }}"></a>
+    <p></p>
+    
+    <h3>{{ tag_name }}</h3>
+    
+    {% for post in site.tags[tag_name] %}
+
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> &bull; <span> {{ post.date | date_to_string}} </span>
+      <br/>
+
+    {% endfor %}
+    
+{% endfor %}

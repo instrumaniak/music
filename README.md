@@ -1,3 +1,4 @@
-# Jekyll blog 
+# My personal site/blog
 
-currently: https://www.instrumaniak.cf
+currently: https://instrumaniak.github.io
+
