@@ -22,7 +22,7 @@ author:
   email:             instrumaniak@gmail.com
 
 # Custom vars
-version:             0.6
+version:             0.7
 sass:
   style: :compressed
 markdown: kramdown
