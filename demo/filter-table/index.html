@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content ="width=device-width, initial-scale=1" />
+  <title>Filter table</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="wrap">
+  <p>Top Supercomputers of 2017 <a href="https://www.top500.org/lists/2017/06/">(List Source)</a></p>
+
+<div class="toolbox">
+ <input type="text" id="inpValue" placeholder="Type here to filter the table below by name or country.." />
+
+
+<div class="control-panel">
+  
+  <label><input id="rbName" type="radio" name="radios" checked/>
+  Name</label>
+
+  <label><input id="rbCountry" type="radio" name="radios" />
+  Country</label>
+
+  <label><input id="cbCaseSns" type="checkbox" />
+  Case sensitive</label>
+
+  <button id="btnClear">Clear</button>
+
+  <div class="info-panel">
+    <p>Tip: use ESC key to quickly clear text box.</p>
+  </div>
+
+</div>
+</div>
+
+<table>
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sunway TaihuLight</td>
+      <td>China</td>
+    </tr>
+    <tr>
+      <td>Tianhe-2 (MilkyWay-2)</td>
+      <td>China</td>
+    </tr>
+    <tr>
+      <td>Piz Daint</td>
+      <td>Switzerland</td>
+    </tr>
+    <tr>
+      <td>Titan</td>
+      <td>US</td>
+    </tr>
+    <tr>
+      <td>Sequoia</td>
+      <td>US</td>
+    </tr>
+    <tr>
+      <td>Cori</td>
+      <td>US</td>
+    </tr>
+    <tr>
+      <td>Oakforest-PACS</td>
+      <td>Japan</td>
+    </tr>
+    <tr>
+      <td>K computer</td>
+      <td>Japan</td>
+    </tr>
+    <tr>
+      <td>Mira</td>
+      <td>US</td>
+    </tr>
+    <tr>
+      <td>Trinity</td>
+      <td>US</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="action.js"></script>
+</div>
+</body>
+</html>

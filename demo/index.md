@@ -1,11 +1,16 @@
 ---
 layout: page
-title: Demo Works
+title: Coding Projects
 pageorder: 02
 ---
 
-As part of learning web development, I am making demo web pages to showoff my skill level.
+As part of learning coding and web development, I am doing little projects. View sources of those from [github](https://github.com/instrumaniak/little-projects). Some of those are web projects can be viewed from here:
 
-### Static web pages
+### Static web projects
 
-- [About Philip Glass]({{page.url}}philipglass/) - *Single page bootstrap site, FreeCodeCamp Front End Project* 
+- [About Philip Glass]({{page.url}}philipglass/) *Single page bootstrap site, FreeCodeCamp Front End Project*
+
+- [CSS Button]({{page.url}}cssbuttons/) *Making a Button using vanilla CSS*
+
+- [Filter table]({{page.url}}filter-table/) *Filter/Search HTML table* 
+
