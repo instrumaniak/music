@@ -5,8 +5,10 @@ category: coding
 tags: [javascript, projects]
 ---
 
-This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table. The idea came from a w3school tutorial but I coded it from scratch and implemented some features that I think would make the user experience more fluid but that made the code a bit complex for me.
+This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table. See it in action from [here](/demo/filter-table).
 <!--more-->
+
+The idea came from a w3school tutorial but I coded it from scratch and implemented some features that I think would make the user experience more fluid but that made the code a bit complex for me.
 
 I thought I would be able to code it within an hour as I saw the basic code but it took me few days to implement the functionality and style that I was looking for.
 
@@ -104,7 +106,7 @@ body {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 2px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .info-panel p {
@@ -230,7 +232,7 @@ function filterTable(){
 
 ## Result
 
-<iframe src ="/demo/filter-table" style="border:0; width: 100%; height: 600px"></iframe>
+See it in action from [here](/demo/filter-table) or checkout the links below.
 
 
 ## Links

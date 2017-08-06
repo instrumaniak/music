@@ -54,4 +54,47 @@ Let make a simple 3D looking push button. The CSS for the button:
 
 And you get this output, go ahead click it!
 
-<iframe src ="/demo/cssbuttons" style="border:0; width: 100%; height: 200px"></iframe>
+<div class="little-container">
+  <div id="cool-button">Hello world!</div>
+</div>
+ 
+<style>
+
+.little-container {
+  background-color: #f9f9f9;
+  font-size: 14px;
+  font-family: "Segoe UI";
+} 
+
+#cool-button {
+
+  background-color: rgba(255,255,255,0.5);
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 50px;
+
+
+  text-align: center;
+  border: 1px solid rgba(200,200,200,0.2);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(20,20,20,0.2),
+        inset 2px 2px 1px rgba(255,255,255,0.9);
+}
+
+#cool-button:hover {
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: 2px 2px 2px rgba(20,20,20,0.2),
+        inset 2px 2px 1px rgba(255,255,255,0.2);
+  cursor: pointer;
+}
+
+#cool-button:active {
+/* box-shadow: inset 1px 1px 1px rgba(100,100,100,0.1),
+             inset -2px -2px 4px rgba(255,255,255,0.5); */
+ border: 2px solid rgba(200,200,200,0.2);
+ background-color: rgba(200,200,200,0.1);
+ box-shadow: unset;
+        
+}
+
+</style>
