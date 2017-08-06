@@ -2,6 +2,7 @@
 layout: post
 title: Making of the track - Carbon
 category: music-production
+tags: avlinux ardour seq24 lv2 ladspa
 ---
 
 I made my first linux-music, used AVLinux 6.01 to be more specific. Here is the link of the work: [Carbon](https://raziurrahman.bandcamp.com/track/carbon). This post briefly documents the production process, so that I can come back later to see how I produced this work and why it sound this way, so that I can build upon this experience.

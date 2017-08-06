@@ -2,6 +2,7 @@
 layout: post
 title:  Using Jekyll for blogging 
 category: tech-talk
+tags: jekyll github-pages
 ---
 For the last few months I have been moving my blog from Blogger to Github pages and spent quite some time and energy to learn the jekyll static site generator, Liquid templating language , git/github and front-end web development in general to make the transition. Why?
 <!--more-->

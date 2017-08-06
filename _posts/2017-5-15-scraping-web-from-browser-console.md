@@ -2,6 +2,7 @@
 layout: post
 title:  Scraping web data right from the browser console
 category: coding
+tags: javascript
 ---
 I have enrolled in some free online courses (MOOC) from various sites and I wanted to keep track of these courses in a spreadsheet. So I needed to copy the titles of the courses and paste into a spreadsheet. Simply copying and pasting is not so appealing as I have to clean up unwanted text thus it would be a boring manual work. So I thought why not *automate the boring stuff with javascript*? So lets see how to quickly extract data from the web page right from the browser console and make the copy-paste process a bit smarter!
 <!--more-->

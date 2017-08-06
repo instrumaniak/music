@@ -2,6 +2,7 @@
 layout: post
 title:  Noise removal tips for single coil Guitar pickup
 category: music-production
+tags: reaper reafir noise guitar recording
 ---
 
 Recently I was test recording my steel string acoustic guitar using a single coil pickup on REAPER. And I noticed that the pickup picked up quite noticeable power hum (50/60Hz) and some high frequency buzz around 5kHz. This usually happens with single coil pickup. So, I used the amazing ReaFIR plugin of REAPER to remove the noise up to a satisfactory level.

@@ -2,6 +2,7 @@
 layout: post
 title: JavaScript workout
 category: coding
+tags: [javascript, freecodecamp, algorithm]
 ---
 Last year I spent two months (August-September, 2016) solving many programming problems at freecodecamp using JavaScript. Recently, when I wanted to review those, I thought it would be better if I have all the exercises with my solutions and notes about those if there is any, in one page. So, in this post I will gather all those freecodecamp code snippets and others for easier review!
 <!--more-->

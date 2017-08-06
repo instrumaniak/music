@@ -2,6 +2,7 @@
 layout: post
 title:  Using spreadsheet as a simple database
 category: tech-talk
+tags: spreadsheet libreoffice
 ---
 Sometimes when you have to keep track of some data and don't mind processing it in a quick and dirty fashion, spreadsheet can be of a great help. So lets review the problem at hand- you have a set of text data and you want to keep adding, refining and querying on that set. So you face the need to use a database. For a smaller set of data of less than or about a hundred record items- using a spreadsheet seems to be more intuitive and fast. It's a great tool for prototyping more advanced solution later.
 <!--more-->
