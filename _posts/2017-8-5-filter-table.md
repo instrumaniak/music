@@ -232,7 +232,10 @@ function filterTable(){
 
 ## Result
 
-See it in action from [here](/demo/filter-table) or checkout the links below.
+<p data-height="681" data-theme-id="light" data-slug-hash="QMLJyd" data-default-tab="result" data-user="instrumaniak" data-embed-version="2" data-pen-title="Filter table data" class="codepen">See the Pen <a href="https://codepen.io/instrumaniak/pen/QMLJyd/">Filter table data</a> by Raziur Rahman (<a href="https://codepen.io/instrumaniak">@instrumaniak</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+You can also see it in action from [here](/demo/filter-table) or checkout the links below.
 
 
 ## Links

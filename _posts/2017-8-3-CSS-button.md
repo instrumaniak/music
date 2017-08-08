@@ -5,7 +5,7 @@ category: coding
 tags: css projects
 ---
 
-Want to brush up your CSS basics? Making some buttons of varying styles using just vanilla CSS could be a quite effective way to do just that! I was experimenting with some button styles [previously](https://codepen.io/instrumaniak/pen/RgmGVE), in this post I will share one button style specifically that I liked the most out my CSS button style experiments.
+Want to brush up your CSS basics? Making some buttons of varying styles using just vanilla CSS could be a quite effective way to do just that! I was experimenting with some button styles previously, in this post I will share one button style specifically that I liked the most out my CSS button style experiments.
 
 <!--more-->
 
@@ -98,3 +98,8 @@ And you get this output, go ahead click it!
 }
 
 </style>
+
+## More buttons from the experiment
+
+<p data-height="300" data-theme-id="dark" data-slug-hash="RgmGVE" data-default-tab="result" data-user="instrumaniak" data-embed-version="2" data-pen-title="CSS Button" class="codepen">See the Pen <a href="https://codepen.io/instrumaniak/pen/RgmGVE/">CSS Button</a> by Raziur Rahman (<a href="https://codepen.io/instrumaniak">@instrumaniak</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
