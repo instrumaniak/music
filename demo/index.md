@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Coding Projects
+title: Code Lab
 pageorder: 02
 ---
 
-As part of learning coding and web development, I am doing little projects. View sources of those from [github](https://github.com/instrumaniak/little-projects). Some of those are web projects can be viewed from here:
+As part of learning coding and web development, I am doing little projects and experiments! View sources of those from [github](https://github.com/instrumaniak/code-lab). Some of those are static web projects and can be viewed from here:
 
 ### Static web projects
 
