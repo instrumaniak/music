@@ -30,3 +30,6 @@ markdown: kramdown
 collections:
   bangla:
     output: true
+    
+  notes:
+    output: true
