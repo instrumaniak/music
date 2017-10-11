@@ -6,6 +6,22 @@ pageorder: 03
 
 <hr>
 
+## Flow (2017)
+
+Single track, released September 30, 2017.
+
+Genre: *instrumental, progressive rock, acoustic*
+
+Music, sound works and cover art by Raziur Rahman. This track is made using Reaper and free VST plugins and sounds. You can read about the overall making process from [here]({% post_url 2017-10-11-making-of-flow %}).
+
+![flow cover](/images/coverart/flow-cover-800px.png)
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=942002446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://raziurrahman.bandcamp.com/track/flow">Flow by Raziur Rahman</a></iframe>
+
+<br/>
+<hr>
+
+
 ## Carbon (2015)
 
 Single track, released June 23, 2015.
