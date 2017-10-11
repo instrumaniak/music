@@ -44,72 +44,11 @@ As a beginner music producer, I don't have a fully fledged studio. I am more of 
 Various instruments and effects are used and quite complex manual signal routing was performed to get the desired sound. Many of the bass and lead sounds are produced by a synthesizer called subtractor. I tried to minimize the use of different instruments to bring a consistency among the tracks, you will hear hear piano a lot. The album uses Reason's Subtractor, NN-XT and Redrum instruments extensively. Rest of the instruments just appears when they are needed.
 
 
-Subtractor synthesizer is being used as a bass instrument.
-
-
-Distortion effects for guitar - the sampler instrument: NN-XT and it's cable wiring
-
-
 ## Sequencer
 
-Music is performed and programmed in the sequencer. Performance notes are quantized to get the perfect timing! Reason's Block feature and tool window was used extensively for composing/arranging music on the sequencer. The album consists of 11 tracks. Below you can see the sequencer view of the 11 tracks:
+Music is performed and programmed in the sequencer. Performance notes are quantized to get the perfect timing! Reason's Block feature and tool window was used extensively for composing/arranging music on the sequencer. The album consists of 11 tracks. Below you can see the sequencer view of a track:
 
-
-### Track 1: Friends
-
-### Track 1: Friends
-
-
-### Track 2: Fly
-
-### Track 2: Fly
-
-
-### Track 3: Pink
-
-### Track 3: Pink
-
-
-### Track 4: Poison
-
-### Track 4: Poison
-
-
-### Track 5: Blur
-
-### Track 5: Blur
-
-
-### Track 6: Midnight
-
-### Track 6: Midnight
-
-
-### Track 7: Baby steps
-
-This the most complicated track in terms of key change! This track contains all 12 keys!
-
-### Track 7: Baby steps
-
-
-### Track 8: Tears in Rain
-
-### Track 8: Tears in rain
-
-
-### Track 9: The other side
-
-### Track 9: The other side
-
-
-### Track 10: Revelation
-
-### Track 10: Revelation
-
-
-### Track 11: instrumania
-
-### Track 11: Instrumania
+![sequencer](/images/instrumania/instrumania-sequencer.png)
 
 
 ## Mixing
@@ -120,32 +59,22 @@ There could be said a lot about mixing and mastering. But I will not go there be
 The basic idea that I used while mixing this album is to create volume and panning balance among the tracks and also a balance in the frequency spectrum, so that one instruments don't overpower or mud other instrument's frequency content.
 
 
-Mixing Drums
-		
-
-Finally all the sub mixes are mixed!
-
-
-Mixing
-
-
 ## Mastering
 
 I used MClass Effects at the mastering stage. A pack of Equalizer, Compressor and Limiter was all that was used to master all of the tracks. Care was taken so that all of the 11 track sounds similarly and also gentle mastering was applied. Keeping a somewhat better dynamic range, meaning it would not be the loudest album and there would be sound level variations. Thus giving it a somewhat acoustic or natural feel.  After rendering, I used Audacity to insert some header and trailing silence and some fade in/out.
 
 
-Mastering combo
-
-
-Audacity tweaking at the final stage
+![Mixer](/images/instrumania/instrumania-mixer-master.png)
 
 
 ## Cover art
 
 This album was an one man production, so, I made the cover art my self. First a cover layout with title and name text was made using GIMP then it was imported into Artrage where it was painted with digital water color! Well I wiggled!
 
-GIMP and Artrage in action!
-Distribution
+![instrumania cover](/images/coverart/instrumania-800px.jpg)
+
+
+## Distribution
 
 I exported each master track in FLAC format as FLAC format almost reduces the WAV file upto half the original size thus save my uploading time and Internet bandwidth. And then I uploaded all the tracks to Bandcamp. I chose Bandcamp over soundcloud because I like the features of Bandcamp!
 
@@ -155,4 +84,4 @@ I exported each master track in FLAC format as FLAC format almost reduces the WA
 instrumania was my first music album and the whole production process was not only educational but also a lot of fun! I am just happy that I was able to share some of my musical idea with the world! I understand that I need to improve more on mixing/mastering and also on the compositional aspects of my music and I also need to buy some decent hardware!
 
 
-Last updated on: 31-Jan-2015
+Last updated on: 11-Oct-2017
