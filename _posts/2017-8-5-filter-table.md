@@ -5,7 +5,7 @@ category: coding
 tags: [javascript, projects]
 ---
 
-This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table. See it in action from [here](/demo/filter-table).
+This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table.
 <!--more-->
 
 The idea came from a w3school tutorial but I coded it from scratch and implemented some features that I think would make the user experience more fluid but that made the code a bit complex for me.
@@ -235,13 +235,8 @@ function filterTable(){
 <p data-height="681" data-theme-id="light" data-slug-hash="QMLJyd" data-default-tab="result" data-user="instrumaniak" data-embed-version="2" data-pen-title="Filter table data" class="codepen">See the Pen <a href="https://codepen.io/instrumaniak/pen/QMLJyd/">Filter table data</a> by Raziur Rahman (<a href="https://codepen.io/instrumaniak">@instrumaniak</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-You can also see it in action from [here](/demo/filter-table) or checkout the links below.
-
 
 ## Links
 
 - View this project on [codepen](https://codepen.io/instrumaniak/full/QMLJyd/)
-
-- View full source code on [github](https://github.com/instrumaniak/little-projects/tree/master/filter-html-table).
-
 - The Original [w3school tutorial](https://www.w3schools.com/howto/howto_js_filter_table.asp)
