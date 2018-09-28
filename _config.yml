@@ -22,7 +22,7 @@ author:
   email:             instrumaniak@gmail.com
 
 # Custom vars
-version:             0.7
+version:             0.8
 sass:
   style: :compressed
 markdown: kramdown
@@ -30,6 +30,6 @@ markdown: kramdown
 collections:
   bangla:
     output: true
-    
+
   notes:
     output: true

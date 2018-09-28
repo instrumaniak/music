@@ -17,6 +17,7 @@ height:100%;
 	padding: 40px 0;
 	text-align: center;
 	color: #999;
+  border-top: solid 1px #eee;
 }
 
 .tags {
@@ -28,4 +29,18 @@ height:100%;
 	display: inline-block;
 	vertical-align: top;
 	opacity: 0.2;
+}
+
+/* Social Icons */
+
+#social .fa {
+  margin-right: 1em;
+  color: #999;
+  &:hover {
+    color: #268bd2;
+  }
+}
+
+#social a {
+  text-decoration: none;
 }
